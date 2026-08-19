@@ -19,3 +19,6 @@ dist/
 .env*
 
 .idea
+.venv
+backend/_pycache_
+*.pyc
