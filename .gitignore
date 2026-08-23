@@ -20,6 +20,6 @@ dist/
 
 .idea
 .venv
-backend/_pycache_
+backend
 *.pyc
 
