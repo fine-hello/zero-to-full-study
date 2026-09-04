@@ -1,24 +1,7 @@
-# zero-to-tech-4-5 · Next.js 版（模块 4.5 配套代码）
+ Next.js 版
 
 4.5 的终点成品：把 4.4 的 React 项目整体搬到 Next.js。网站长相不变；变的是路由层（手搓 `useRoute` → 文件夹路由）和入口（`index.html` + `main.jsx` + `App.jsx` → `app/`）。
 
-## 跑起来
-
-```bash
-npm install
-npm run dev          # http://localhost:3000   （Next 默认端口是 3000）
-```
-
-## 把你的 4.4 项目（`zero-to-tech`）迁成这样：整包替换
-
-1. 把 `~/zero-to-tech` 里**除隐藏的 `.git` 外的所有文件删掉**。
-2. 把本 demo 下的所有文件拷进去（`node_modules`、`.next` 不用拷）。
-3. 跑起来确认还是那个网站：
-   ```bash
-   npm install
-   npm run dev          # http://localhost:3000
-   ```
-4. 确认无误后 `git add` / `commit` / `push`。
 
 ## 项目结构
 
